@@ -1,0 +1,73 @@
+body {
+	font-family: Tahoma;
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #0066CC;
+}
+#header {
+	background-repeat: repeat-x;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	border: 2px solid #265180;
+	padding-top: 70px;
+	text-align: left;
+	background-color: #66CC00;
+	background-image: url(../admin/Data/Images/header.jpg);
+
+
+}
+#header #menu {
+	height: 25px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #0033FF;
+	background-position: center;
+	background-image: url(../admin/Data/Images/menu.jpg);
+	font-size: 14px;
+}
+#header #menu a {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	color: #0033CC;
+	text-decoration: none;
+	float: left;
+	height: 13px;
+	width: 100px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #0033CC;
+	padding: 5px;
+	text-align: center;
+}
+#header #menu .selected {
+	background-image: url(../admin/Data/Images/trans.png);
+}
+#event {
+	width: 100%;
+	padding-top: 30px;
+	padding-right: 2px;
+	padding-bottom: 30px;
+	padding-left: 2px;
+	background-image: url(../Images/background2.gif);
+	background-position: center;
+	background-repeat: repeat-y;
+}
+#footer {
+	background-image: url(../admin/Data/Images/footer.jpg);
+	background-repeat: repeat-x;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	height: 50px;
+	border: 2px solid #265180;
+	text-align: center;
+}
+
+
+#header #menu a:hover {
+	color: #FFFFCC;
+	background-color: #FFFF00;
+}

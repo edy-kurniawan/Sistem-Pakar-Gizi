@@ -1,0 +1,371 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	background-position: center center;
+}
+
+a:link {
+	color: #492100;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #492100;
+}
+
+body {
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-image: url(images/bcg.jpg);
+}
+
+
+#main
+{
+	width: 653px;
+	margin-top: 20px;
+	background-color: #99CC00;
+	margin-left: 250px;
+}
+
+#header {
+	width: 653px;
+	height: 170px;	
+}
+
+#menu
+{
+float: left;
+width: 603px;
+height: 43px;
+padding-left: 50px;
+background: url(images/menu.gif) no-repeat;
+}
+
+#menu ul {
+	list-style: none;
+	
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 113px;
+	height: 28px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 15px;
+	background: url(images/buttons.gif) no-repeat;
+
+}
+
+#menu a:hover {
+	width: 113px;
+    height: 28px;
+	color: #ff0000;
+	text-decoration: underline;
+	background: url(images/buttons_r.gif) no-repeat;
+}
+
+
+#logo {
+
+width: 623px;
+height: 100px;
+padding-left: 30px;
+padding-top: 19px;
+background: url(images/header1.gif) no-repeat;
+}
+
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+#logo H1 a
+{
+font-size: 24px;
+}
+
+
+#logo H2 a
+{
+font-size: 24px;
+}
+
+#left
+{
+	padding: 10px;
+	width: 185px;
+	background-color: #FFFFFF;
+}
+
+#left H3
+{
+width: 170px;
+height: 24px;
+font-size: 14px;
+font-weight: bold;
+padding-left: 15px;
+padding-top: 15px;
+text-transform: uppercase;
+color: #ffffff;
+background: url(images/title.gif) no-repeat
+}
+
+
+
+#left ul {
+	border: 0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	list-style: none;
+	text-decoration: none;
+}
+
+#left li  {
+	padding: 4px;
+	text-decoration: none;
+}
+
+
+#left H4
+{
+font-size: 10px;
+}
+
+#left a {
+	color: #492100;
+	font-size: 11px;
+}
+#left a:visited {
+	color: #FF00FF;
+	font-size: 11px;
+}
+
+#left p
+{
+padding: 10px;
+}
+
+#calendar1 {
+	padding: 5px 10px 5px 10px;
+}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #696969;
+	border: 1px solid #ff0000;
+	font-weight: bold;
+	color: #ffffff
+}
+
+
+#right
+{
+width: 420px;
+float: right;
+padding-right: 10px;
+}
+
+.myheader
+{
+height: 221px;
+width: 642px;
+background: url(images/header1.jpg) no-repeat;
+margin-left: 5px;
+}
+
+#right ol, #right ul
+{
+margin-left: 30px;
+}
+
+#right H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color: #037931;
+}
+
+#right a
+{
+	color: #FF0000;
+	text-decoration: none;
+	width: 100px;
+}
+#right a:hover {
+	color: #FF00FF;
+	text-decoration: none;
+	width: 100px;
+}
+
+
+#right p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#right h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #492100;
+}
+.date {
+	text-align: right;
+	color: #492100;
+	font-size: 11px;
+}
+
+.date a {
+	color: #492100;
+}
+
+
+
+#footer {
+	clear: both;
+	height: 47px;
+	clear: both;
+	background: url(images/footer.gif) repeat-x ;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #492100;
+}
+
+#footer a {
+	color: #492100;
+}
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    background:url(images/top.jpg) no-repeat;
+    width: 642px;
+    height: 221px;
+    margin:0 auto;
+}
+
+#slider {
+	position:relative;
+    width: 642px;
+    height: 221px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+	display: none;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+#main #left table {
+	font-size: 10px;
+}

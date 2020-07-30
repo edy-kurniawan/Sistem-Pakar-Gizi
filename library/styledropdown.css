@@ -1,0 +1,81 @@
+#menu{
+	position: relative;
+	height: 30px;
+	background-image: url(../Images/menu.jpg);
+}
+
+/*letak menu ditepi kiri*/
+#menu ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+
+
+/*posisi menu berderet*/
+#menu ul li{
+  float:left; 
+  position: relative;
+}
+/*memeberikan kotak pada menu*/
+#menu ul li a{
+	float: left;
+	color: #FFFFFF;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #0033FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	width: 90px;
+	font-size: 14px;
+	text-align: center;
+}
+/*warna ketika menu diklik*/
+#menu ul li a:hover{
+	background-color: #0033CC;
+}
+
+/* Menu Drop Down */
+/*Menyatukan menu Drop down*/
+#menu ul li ul {
+  display: none;
+}
+/*memberikan backroun menu drop down*/
+#menu ul li:hover ul li a {
+	display:block;
+	color:#ffffff;
+	width:90px;
+	border-left: 1px solid #000000;
+	background-color: #666666;
+}
+/*Menampilkan menu Drop down*/
+#menu ul li:hover ul { 
+  display:block; 
+  position:absolute; 
+  top:41px; 
+  left:0;
+}
+/*memberikan efek pada menu*/
+#menu ul li:hover ul li a:hover {
+	color:#ffff00;
+	background-color: #0033CC;
+}
+
+
+
+body {
+	background-position: center top;
+	background-image: url(../Images/bg.jpg);
+	background-repeat: repeat;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#footer {
+	background-image: url(../Images/hider.jpg);
+	background-repeat: no-repeat;
+}
