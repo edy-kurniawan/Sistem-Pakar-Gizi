@@ -15,7 +15,7 @@ echo "Umur : $hasil[umur] Thn <br>";
 echo "Tinggi Badan : $hasil[tinggi_badan]<br>";
 echo "Berat Badan : $hasil[berat_badan]<br>";
 // =========================================================================================================== PENYAKIT  
-echo "<h2>Gejala yang anda derita :</h2>";
+echo "<h3>Gejala yang anda derita :</h3>";
 // $query51 = mysql_query("SELECT * FROM tblkonsultasi where id_pasien= '$id' order by id desc "); 
 // $data51 = mysql_fetch_array($query51);
 // $cekk=$data51['id_tingkatgizi'];
@@ -36,7 +36,7 @@ while($data3 = mysql_fetch_array($result3))
 $b= $data3['namagejala'] ;
 $x= $data3['tingkatgizi'] ;
 $no=$no+1; 
-echo "<h4>$no. $b</h4><p>" ; 
+echo "$no. $b<br>" ;  // echo "<h4>$no. $b</h4><p>" ;
 }
 
 //show solusi begin
@@ -63,19 +63,29 @@ $id_tingkatgizi= $hasil['id_tingkatgizi'] ;
 		//panggil data dari tabel, jadikan variabel
 		$keterangansolusi= $htblsolusi['keterangansolusi'] ;
 		$total += $x;
-		echo "<b>solusi => </b>";
-		echo "$keterangansolusi";
-		echo "<br>";
-		echo "$x %";
+		// echo "<b>solusi => </b>";
+		// echo "$keterangansolusi";
+		// echo "<br>";
+		// echo "$x %";
 		}
 
 }
 
-if($total < 50){ $tingkatgizi = "Kekurangan";}
-elseif($total < 50 && $total < 100){ $tingkatgizi = "Cukup";}
-elseif($total > 100){ $tingkatgizi = "Kelebihan";}
-else{ $tingkatgizi = "";}
-echo "</p><center>Dari gejala tersebut anda Menderita <strong>'$tingkatgizi'</strong> tingkat gizi dengan tingkat Keyakinan <strong>$total %</strong></center><br>";
+if($total < 50){ $tingkatgizi = "Kekurangan"; $tidsolusi = "S001";}
+elseif($total >= 50 && $total < 100){ $tingkatgizi = "Cukup"; $tidsolusi = "S002";}
+elseif($total > 100){ $tingkatgizi = "Kelebihan"; $tidsolusi = "S003";}
+else{ $tingkatgizi = ""; $tidsolusi = "S001";}
+echo "<h4>Dari gejala tersebut anda Menderita <strong>'$tingkatgizi'</strong> tingkat gizi dengan tingkat Keyakinan <strong>$total %</strong><br></h4>";
+
+//tampil solusi
+$tsolusi = "SELECT * FROM tblsolusi where idsolusi='$tidsolusi'"; 
+	$rtsolusi = mysql_query($tsolusi) or die('Error');
+	while($htsolusi = mysql_fetch_array($rtsolusi))
+	{
+	//panggil data dari tabel, jadikan variabel
+	$tampil= $htsolusi['keterangansolusi'] ;
+	echo "<h3>Solusi :</h3><p>$tampil</p>";
+	}
 
 //save ke tblkonsul
 $date=date("d/m/Y");
