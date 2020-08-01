@@ -1,16 +1,15 @@
 <?php
-include "../config.php";
-$a = $_POST['a'];
-$d = $_POST['b'];
-$e = $_POST['c'];
+include "../library/db.php";
 
-$query = "INSERT INTO tblgejala       
-          (idgejala,namagejala) 
-VALUES ('$a','$e')";
-$result = mysql_query($query)
-or die(mysql_error());
+$a = $_POST['a'];
+$b = $_POST['b'];
+$c = $_POST['c'];
+
+$query = "INSERT INTO tblgejala (idgejala,namagejala,tingkatgizi) VALUES ('$a','$b','$c')";
+$result = mysqli_query($db,$query) or die(mysqli_error());
 
 echo "Data Telah Disimpan ";
+
 
 header ('location:media.php?mod=gejala');
 

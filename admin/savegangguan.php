@@ -1,13 +1,13 @@
 <?php
-include "../config.php";
+include "../library/db.php";
 $a = $_POST['a'];
 $d = $_POST['b'];
 
 $query = "INSERT INTO tbltingkat_gizi      
           (id_tingkatgizi,nama_tingkatgizi) 
 VALUES ('$a','$d')";
-$result = mysql_query($query)
-or die(mysql_error());
+$result = mysqli_query($db,$query)
+or die(mysqli_error());
 
 echo "<script>
 		alert('Data tersimpan')

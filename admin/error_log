@@ -1,0 +1,53 @@
+[01-Aug-2020 11:06:33 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 4
+[01-Aug-2020 11:08:27 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 4
+[01-Aug-2020 11:08:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/itcloudn/public_html/spg/admin/savegejala.php on line 10
+[01-Aug-2020 11:10:38 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 4
+[01-Aug-2020 11:10:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/itcloudn/public_html/spg/admin/savegejala.php on line 10
+[01-Aug-2020 11:10:38 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/itcloudn/public_html/spg/admin/savegejala.php on line 11
+[01-Aug-2020 11:15:00 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 4
+[01-Aug-2020 11:15:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/itcloudn/public_html/spg/admin/savegejala.php on line 8
+[01-Aug-2020 11:15:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/itcloudn/public_html/spg/admin/savegejala.php on line 9
+[01-Aug-2020 11:15:24 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 4
+[01-Aug-2020 11:15:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/itcloudn/public_html/spg/admin/savegejala.php on line 8
+[01-Aug-2020 11:15:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/itcloudn/public_html/spg/admin/savegejala.php on line 9
+[01-Aug-2020 11:18:37 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 6
+[01-Aug-2020 11:19:53 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 6
+[01-Aug-2020 11:23:16 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 6
+[01-Aug-2020 11:24:48 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 5
+[01-Aug-2020 11:24:57 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 5
+[01-Aug-2020 11:26:33 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 5
+[01-Aug-2020 11:26:50 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 5
+[01-Aug-2020 11:44:40 UTC] PHP Notice:  Undefined index: b in /home/itcloudn/public_html/spg/admin/savegejala.php on line 5
+[01-Aug-2020 11:55:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/itcloudn/public_html/spg/admin/updatecgejala.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/itcloudn/public_html/spg/admin/updatecgejala.php on line 7
+[01-Aug-2020 11:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/itcloudn/public_html/spg/admin/updatecgejala.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/itcloudn/public_html/spg/admin/updatecgejala.php on line 7
+[01-Aug-2020 11:56:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/itcloudn/public_html/spg/admin/updatecgejala.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/itcloudn/public_html/spg/admin/updatecgejala.php on line 7
+[01-Aug-2020 11:58:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/itcloudn/public_html/spg/admin/updatecterapi.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/itcloudn/public_html/spg/admin/updatecterapi.php on line 7
+[01-Aug-2020 11:58:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/itcloudn/public_html/spg/admin/savesolusi.php on line 7
+[01-Aug-2020 11:58:44 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/itcloudn/public_html/spg/admin/savesolusi.php on line 8
+[01-Aug-2020 11:59:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/itcloudn/public_html/spg/admin/savesolusi.php on line 7
+[01-Aug-2020 11:59:11 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/itcloudn/public_html/spg/admin/savesolusi.php on line 8
+[01-Aug-2020 12:00:07 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/itcloudn/public_html/spg/admin/savesolusi.php on line 8
+[01-Aug-2020 12:02:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/itcloudn/public_html/spg/admin/updatecterapi.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/itcloudn/public_html/spg/admin/updatecterapi.php on line 7
+[01-Aug-2020 12:03:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/itcloudn/public_html/spg/admin/updatecterapi.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/itcloudn/public_html/spg/admin/updatecterapi.php on line 7
+[01-Aug-2020 12:03:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/itcloudn/public_html/spg/admin/updatecterapi.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/itcloudn/public_html/spg/admin/updatecterapi.php on line 7

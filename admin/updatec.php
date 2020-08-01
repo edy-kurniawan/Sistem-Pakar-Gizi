@@ -1,4 +1,5 @@
-<?php include "../config.php";
+<?php 
+include "../library/db.php";
 
 $id = $_GET["id"]; 
 $a = $_POST["id_tingkatgizi"];
@@ -10,8 +11,8 @@ $b = $_POST["nama_tingkatgizi"];
 
 $query = "UPDATE tbltingkat_gizi SET id_tingkatgizi='$a', nama_tingkatgizi='$b' where id_tingkatgizi='$id'";
 // echo $query;
-$result = mysql_query($query)
-or die(mysql_error());
+$result = mysqli_query($db,$query)
+or die(mysqli_error());
 
 echo "<script>
 		alert('Data tersimpan')

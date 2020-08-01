@@ -1,2 +1,2 @@
-# Sistem-Pakar-Gizi
- Sistem Pakar Gizi Berbasis PHP Native WEB
+# SPG
+ Sistem Pendukung Keputusan Berbasis WEB PHP Native

@@ -2,9 +2,9 @@
 require "mysql_mysqli.inc.php";
 error_reporting(E_ALL ^ (E_NOTICE | E_WARNING | E_DEPRECATED));
 $db_host = "localhost";
-$db_user = "root";
-$db_pass = "";
-$db_name = "pakar_gizi";
+$db_user = "itcloudn_epasar";
+$db_pass = "it-epasar";
+$db_name = "itcloudn_spg";
 
 $koneksi = mysql_connect($db_host, $db_user, $db_pass);
 $db = mysql_select_db($db_name, $koneksi);
