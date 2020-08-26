@@ -74,11 +74,6 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING | E_DEPRECATED));
 		  </select></td></tr>
 		  <tr><td>Tinggi Badan</td>		    <td><input name="tinggi_badan" 		type="text" id="tinggi_badan" required/></td></tr>
 		  <tr><td>Berat Badan</td>		    <td><input name="berat_badan" 		type="text" id="berat_badan" required/></td></tr>
-		  <tr><td>Jenis Kondisi</td><td><select name="jenis_kondisi" id="jenis_kondisi" required>
-		   <option value="">Jenis Kondisi</option>
-		    <option value="Sehat">Sehat</option>
-		    <option value="Kurangsehat">Kurang Sehat</option>
-		  </select></td></tr>
 		  <tr><td align="right"><a href=home.php?menu=home><b>Kembali</b></a></td>		<td><input type="submit" 		name="daftar" value="Daftar" /></td></tr>
 		</table>
 		</form>
